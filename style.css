@@ -1,0 +1,217 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ---------------Nav bar-----------*/
+.nav-bar {
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    display: flex;
+    align-items: center; /* Vertically centers content within the nav bar */
+    justify-content: space-between
+}
+.navbtn{
+    flex:2
+}
+.menulist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style: none;
+    padding-top:50px;
+    /* padding-left: 188px; */
+    color:white;
+}
+.menulist1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style: none;
+    padding-top:45px;
+    padding-left: 188px;
+    color:white;
+    font-size: 26px;
+}
+.tools{
+    height:70px;
+    /* background-color: red; */
+    flex:1;
+
+}
+.navlist a{
+    color:white;
+    font-size:18px;
+    font-weight: 550;
+    text-decoration: none;
+}
+.navlist{
+ padding:6px 7px;
+ color:white
+}
+.logo {
+    /* width: 220px; */
+    height: 100px;
+    color:white;
+    padding-left:50px;
+    margin-top:90px;
+    flex:1
+}
+.logo svg{
+    height:27px;
+    width:164px
+}
+.category{
+    display: flex;
+    gap: 30px; /* Adds space between category items */
+    align-items: center; /* Vertically aligns the category items */
+    justify-content: flex-start; /* Aligns category items to the left */
+    margin-left:-250px;
+    margin-top:-70px;
+    font-size:20px;
+    font-weight:550;
+}
+/*--------------------Sections------------------------*/
+.section1{
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    position: relative;  
+}
+
+.section2, .section3,.section4 {
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    position: relative; /* Makes buttons positioned relative to their sections */
+}
+.section1 {
+    background-image: url("images/hero.avif");}
+.section2 {
+    background-image: url("images/Homepage-Model-3-Desktop-US.avif");
+}
+
+.section3 {
+    background-image: url("images/img2.avif"); 
+}
+.section4{
+    background-image: url("images/img3.avif");
+}
+.section-one-text-content {
+    text-align: center;
+    padding-top: -50px;
+    color: white;
+}
+
+.section-two-text-content {
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.content-one {
+    font-size: 65px;
+}
+
+.content-two {
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.content-three {
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+/* Buttons for section 2 */
+.button-section2 {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Buttons for section 3 */
+/* .button-section3 {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} */
+
+.button1, .button2 {
+    width: 360px;
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.button1 {
+    background-color: #3d6ae1;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+}
+.content{
+    margin-top: -60px;
+}
+/*----------------------footer-----------------------*/
+
+.foot-text1{
+    width:700px;
+    margin-left:450px;
+    text-align: center;
+    line-height: 20px;
+    background-color: black;
+    color:#e6e6e6;
+    padding-top:60px;
+    
+}
+.footer-one{
+    width:100%;
+    background-color: black;
+}
+.foot-text2{
+    width:700px;
+    margin-left:450px;
+    text-align: center;
+    line-height: 20px;
+    background-color: black;
+    color:#e6e6e6;
+    padding-top:30px;
+    
+}
+.footertwo-content{
+    /* background-color: red; */
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 450px;
+    color:#e6e6e6;
+    font-weight: 500;
+    /* margin-top:10px; */
+   
+}
+.footer-two{
+    background-color: black;
+    width:100%;
+    padding-top: 60px;
+    padding-bottom:30px;
+}
